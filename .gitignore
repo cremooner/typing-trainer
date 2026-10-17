@@ -1,0 +1,19 @@
+# ── 本地智能体/编辑器缓存（含个人记忆，绝对不要提交）──
+.workbuddy/
+
+# ── 依赖 ──
+node_modules/
+
+# ── 测试产物 ──
+test/*.png
+test/screenshots/
+*.log
+
+# ── 系统杂项 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 词库原始数据（3.9MB，来自第三方词库，版权归原出处；页面已内联，缺失时测试自动降级）──
+# 若你确认可以公开，把下面这行的 # 去掉或直接删除本行
+#CET6_2.json
